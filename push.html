@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>push &#8212; pubtools-exodus  documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
@@ -12,6 +12,7 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -34,12 +35,12 @@
           <div class="body" role="main">
             
   <section id="push">
-<h1>push<a class="headerlink" href="#push" title="Permalink to this headline">¶</a></h1>
+<h1>push<a class="headerlink" href="#push" title="Permalink to this heading">¶</a></h1>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">usage</span><span class="p">:</span> <span class="n">pubtools</span><span class="o">-</span><span class="n">exodus</span><span class="o">-</span><span class="n">push</span> <span class="p">[</span><span class="o">-</span><span class="n">h</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">debug</span><span class="p">]</span> <span class="p">[</span><span class="o">--</span><span class="n">verbose</span><span class="p">]</span> <span class="n">source</span>
 </pre></div>
 </div>
 <section id="Positional Arguments">
-<h2>Positional Arguments<a class="headerlink" href="#Positional Arguments" title="Permalink to this headline">¶</a></h2>
+<h2>Positional Arguments<a class="headerlink" href="#Positional Arguments" title="Permalink to this heading">¶</a></h2>
 <dl class="option-list">
 <dt><kbd>source</kbd></dt>
 <dd><p>Source(s) of content to be pushed (e.g., ‘staged:/path/to/staging/root’).</p>
@@ -47,7 +48,7 @@
 </dl>
 </section>
 <section id="Named Arguments">
-<h2>Named Arguments<a class="headerlink" href="#Named Arguments" title="Permalink to this headline">¶</a></h2>
+<h2>Named Arguments<a class="headerlink" href="#Named Arguments" title="Permalink to this heading">¶</a></h2>
 <dl class="option-list">
 <dt><kbd>--debug, -d</kbd></dt>
 <dd><p>Show debug logs</p>
@@ -60,7 +61,7 @@
 </dl>
 </section>
 <section id="example">
-<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this heading">¶</a></h2>
 <p>A typical invocation to push a staged directory would look like this:</p>
 <div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pubtools-exodus-push <span class="se">\</span>
   staged:/path/to/staged/content
@@ -70,7 +71,7 @@
 by the <a class="reference external" href="https://release-engineering.github.io/pushsource/">pushsource library</a>.</p>
 </section>
 <section id="example-additional-exodus-rsync-arguments">
-<h2>Example: additional exodus-rsync arguments<a class="headerlink" href="#example-additional-exodus-rsync-arguments" title="Permalink to this headline">¶</a></h2>
+<h2>Example: additional exodus-rsync arguments<a class="headerlink" href="#example-additional-exodus-rsync-arguments" title="Permalink to this heading">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">pubtools-exodus-push</span></code> command also accepts arguments supported by
 <a class="reference external" href="https://github.com/release-engineering/exodus-rsync/">exodus-rsync</a>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">exodus-rsync</span></code> arguments one might wish to provide to <code class="docutils literal notranslate"><span class="pre">pubtools-exodus-push</span></code>:</p>
@@ -142,7 +143,7 @@ by the <a class="reference external" href="https://release-engineering.github.io
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
 
 
 
@@ -159,7 +160,7 @@ by the <a class="reference external" href="https://release-engineering.github.io
       &copy;2019, Red Hat.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
