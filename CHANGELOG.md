@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - n/a
 
+## [1.5.1] - 2023-12-05
+
+- fixed some failing HTTP requests not being retried as intended
+
 ## [1.5.0] - 2023-10-20
 
 - pubtools-pulplib integration now uses phase1 commits to ensure correct behavior
@@ -64,14 +68,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - pubtools-exodus-push: Load content using the pushsource library
 
-## [0.1.0] - 2022-02-24
+## 0.1.0 - 2022-02-24
 
 - Initial release
 - Introduce pubtools-exodus-push entry point task
 - Introduce exodus-pulp hook implementers
 - Introduce project structure, config, CI
 
-[Unreleased]: https://github.com/release-enineering/pubtools-exodus/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/release-enineering/pubtools-exodus/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/release-engineering/pubtools-exodus/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/release-engineering/pubtools-exodus/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/release-engineering/pubtools-exodus/compare/v1.3.2...v1.4.0
 [1.3.2]: https://github.com/release-engineering/pubtools-exodus/compare/v1.3.1...v1.3.2
