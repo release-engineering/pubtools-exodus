@@ -1,4 +1,4 @@
-from setuptools import find_packages, setup
+from setuptools import find_namespace_packages, setup
 
 
 def get_description():
@@ -22,7 +22,8 @@ def get_requirements():
 setup(
     name="pubtools-exodus",
     version="1.5.1",
-    packages=find_packages(exclude=["tests"]),
+    packages=find_namespace_packages(where="src"),
+    package_dir={"": "src"},
     include_package_data=True,
     url="https://github.com/release-engineering/pubtools-exodus",
     license="GNU General Public License",
