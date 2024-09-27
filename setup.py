@@ -21,7 +21,7 @@ def get_requirements():
 
 setup(
     name="pubtools-exodus",
-    version="1.5.1",
+    version="1.5.2",
     packages=find_namespace_packages(where="src"),
     package_dir={"": "src"},
     include_package_data=True,

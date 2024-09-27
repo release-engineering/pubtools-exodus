@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - n/a
 
+## [1.5.2] - 2024-09-27
+
+- Fix pubtools packaging conflicts by moving pubtools-exodus to a src layout
+
 ## [1.5.1] - 2023-12-05
 
 - fixed some failing HTTP requests not being retried as intended
@@ -75,7 +79,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Introduce exodus-pulp hook implementers
 - Introduce project structure, config, CI
 
-[Unreleased]: https://github.com/release-enineering/pubtools-exodus/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/release-enineering/pubtools-exodus/compare/v1.5.2...HEAD
+[1.5.2]: https://github.com/release-engineering/pubtools-exodus/compare/v1.5.1...v1.5.2
 [1.5.1]: https://github.com/release-engineering/pubtools-exodus/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/release-engineering/pubtools-exodus/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/release-engineering/pubtools-exodus/compare/v1.3.2...v1.4.0
